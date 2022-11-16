@@ -6,6 +6,7 @@
 #include <Wire.h>
 #include <SPI.h>
 #include <RH_RF95.h>
+// test
 MPU6050 mpu6050(Wire);
 ESP8266WebServer server(80);
 ADXL345_WE accel(0x53);
